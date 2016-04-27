@@ -92,6 +92,10 @@
 }
 
 - (IBAction)applyBackgroundColor3:(id)sender {
-    [self.view setBackgroundColor:[UIColor whiteColor]];
+    [self.view setBackgroundColor:[UIColor purpleColor]];
+}
+
+- (BOOL)prefersStatusBarHidden {
+    return YES;
 }
 @end
